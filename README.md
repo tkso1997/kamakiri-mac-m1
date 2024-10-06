@@ -7,6 +7,7 @@ Steps to get it running under macOS 15.0.1 - assuming you have a running python3
 2. install pyserial and pyusb
    - pip3 install pyusb
    - pip3 install pyserial
+3. get the necessary binary files and place them in the right folders (gpt-mantis.bin etc. - google is your friend)
 3. connect your FireTV-4k Mantis device to your usb port and instantaneously run gpt-fix
    - sh gpt-fix.sh
 
