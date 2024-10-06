@@ -117,8 +117,9 @@ def main(dev):
 
 
 if __name__ == "__main__":
-
-    check_modemmanager()
+    
+    # ignore check_modemanager to allow gpt-fix.sh to work on macOS on mac silicon
+    # check_modemmanager()
 
     dev = Device()
     dev.find_device()
