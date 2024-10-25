@@ -1,6 +1,6 @@
-The modification in this fork allowed me to run gpt-fix.sh on macOS on mac silicon (no live Linux). 
+The modification in this fork allowed me to run gpt-fix.sh on macOS on a mac-m1 (no live Linux required). 
 
-Steps to get it running under macOS 15.0.1 - assuming you have a running python3 environment.
+Steps to get it running under macOS 15.0.1 - assuming you have a running python3 environment:
 1. Generate a virtual python environment:
    - python3 -m venv .venv
    - source .venv/bin/activate
